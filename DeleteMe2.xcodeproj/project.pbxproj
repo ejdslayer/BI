@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F407B171DDDF1B000749463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F407B161DDDF1B000749463 /* main.m */; };
+		4F407B1A1DDDF1B000749463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F407B191DDDF1B000749463 /* AppDelegate.m */; };
+		4F407B1D1DDDF1B000749463 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F407B1C1DDDF1B000749463 /* ViewController.m */; };
+		4F407B201DDDF1B000749463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F407B1E1DDDF1B000749463 /* Main.storyboard */; };
+		4F407B231DDDF1B000749463 /* DeleteMe2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F407B211DDDF1B000749463 /* DeleteMe2.xcdatamodeld */; };
+		4F407B251DDDF1B000749463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F407B241DDDF1B000749463 /* Assets.xcassets */; };
+		4F407B281DDDF1B000749463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F407B261DDDF1B000749463 /* LaunchScreen.storyboard */; };
+		4F407B331DDDF1B000749463 /* DeleteMe2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F407B321DDDF1B000749463 /* DeleteMe2Tests.m */; };
+		4F407B3E1DDDF1B000749463 /* DeleteMe2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F407B3D1DDDF1B000749463 /* DeleteMe2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F407B2F1DDDF1B000749463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F407B0A1DDDF1B000749463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F407B111DDDF1B000749463;
+			remoteInfo = DeleteMe2;
+		};
+		4F407B3A1DDDF1B000749463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F407B0A1DDDF1B000749463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F407B111DDDF1B000749463;
+			remoteInfo = DeleteMe2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F407B121DDDF1B000749463 /* DeleteMe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteMe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F407B161DDDF1B000749463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F407B181DDDF1B000749463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F407B191DDDF1B000749463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F407B1B1DDDF1B000749463 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F407B1C1DDDF1B000749463 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F407B1F1DDDF1B000749463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F407B221DDDF1B000749463 /* DeleteMe2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeleteMe2.xcdatamodel; sourceTree = "<group>"; };
+		4F407B241DDDF1B000749463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F407B271DDDF1B000749463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F407B291DDDF1B000749463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F407B2E1DDDF1B000749463 /* DeleteMe2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeleteMe2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F407B321DDDF1B000749463 /* DeleteMe2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteMe2Tests.m; sourceTree = "<group>"; };
+		4F407B341DDDF1B000749463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F407B391DDDF1B000749463 /* DeleteMe2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeleteMe2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F407B3D1DDDF1B000749463 /* DeleteMe2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteMe2UITests.m; sourceTree = "<group>"; };
+		4F407B3F1DDDF1B000749463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F407B0F1DDDF1B000749463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F407B2B1DDDF1B000749463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F407B361DDDF1B000749463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F407B091DDDF1B000749463 = {
+			isa = PBXGroup;
+			children = (
+				4F407B141DDDF1B000749463 /* DeleteMe2 */,
+				4F407B311DDDF1B000749463 /* DeleteMe2Tests */,
+				4F407B3C1DDDF1B000749463 /* DeleteMe2UITests */,
+				4F407B131DDDF1B000749463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F407B131DDDF1B000749463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F407B121DDDF1B000749463 /* DeleteMe2.app */,
+				4F407B2E1DDDF1B000749463 /* DeleteMe2Tests.xctest */,
+				4F407B391DDDF1B000749463 /* DeleteMe2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F407B141DDDF1B000749463 /* DeleteMe2 */ = {
+			isa = PBXGroup;
+			children = (
+				4F407B181DDDF1B000749463 /* AppDelegate.h */,
+				4F407B191DDDF1B000749463 /* AppDelegate.m */,
+				4F407B1B1DDDF1B000749463 /* ViewController.h */,
+				4F407B1C1DDDF1B000749463 /* ViewController.m */,
+				4F407B1E1DDDF1B000749463 /* Main.storyboard */,
+				4F407B241DDDF1B000749463 /* Assets.xcassets */,
+				4F407B261DDDF1B000749463 /* LaunchScreen.storyboard */,
+				4F407B291DDDF1B000749463 /* Info.plist */,
+				4F407B211DDDF1B000749463 /* DeleteMe2.xcdatamodeld */,
+				4F407B151DDDF1B000749463 /* Supporting Files */,
+			);
+			path = DeleteMe2;
+			sourceTree = "<group>";
+		};
+		4F407B151DDDF1B000749463 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F407B161DDDF1B000749463 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F407B311DDDF1B000749463 /* DeleteMe2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F407B321DDDF1B000749463 /* DeleteMe2Tests.m */,
+				4F407B341DDDF1B000749463 /* Info.plist */,
+			);
+			path = DeleteMe2Tests;
+			sourceTree = "<group>";
+		};
+		4F407B3C1DDDF1B000749463 /* DeleteMe2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F407B3D1DDDF1B000749463 /* DeleteMe2UITests.m */,
+				4F407B3F1DDDF1B000749463 /* Info.plist */,
+			);
+			path = DeleteMe2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F407B111DDDF1B000749463 /* DeleteMe2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F407B421DDDF1B000749463 /* Build configuration list for PBXNativeTarget "DeleteMe2" */;
+			buildPhases = (
+				4F407B0E1DDDF1B000749463 /* Sources */,
+				4F407B0F1DDDF1B000749463 /* Frameworks */,
+				4F407B101DDDF1B000749463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeleteMe2;
+			productName = DeleteMe2;
+			productReference = 4F407B121DDDF1B000749463 /* DeleteMe2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F407B2D1DDDF1B000749463 /* DeleteMe2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F407B451DDDF1B000749463 /* Build configuration list for PBXNativeTarget "DeleteMe2Tests" */;
+			buildPhases = (
+				4F407B2A1DDDF1B000749463 /* Sources */,
+				4F407B2B1DDDF1B000749463 /* Frameworks */,
+				4F407B2C1DDDF1B000749463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F407B301DDDF1B000749463 /* PBXTargetDependency */,
+			);
+			name = DeleteMe2Tests;
+			productName = DeleteMe2Tests;
+			productReference = 4F407B2E1DDDF1B000749463 /* DeleteMe2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F407B381DDDF1B000749463 /* DeleteMe2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F407B481DDDF1B000749463 /* Build configuration list for PBXNativeTarget "DeleteMe2UITests" */;
+			buildPhases = (
+				4F407B351DDDF1B000749463 /* Sources */,
+				4F407B361DDDF1B000749463 /* Frameworks */,
+				4F407B371DDDF1B000749463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F407B3B1DDDF1B000749463 /* PBXTargetDependency */,
+			);
+			name = DeleteMe2UITests;
+			productName = DeleteMe2UITests;
+			productReference = 4F407B391DDDF1B000749463 /* DeleteMe2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F407B0A1DDDF1B000749463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					4F407B111DDDF1B000749463 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4F407B2D1DDDF1B000749463 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F407B111DDDF1B000749463;
+					};
+					4F407B381DDDF1B000749463 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F407B111DDDF1B000749463;
+					};
+				};
+			};
+			buildConfigurationList = 4F407B0D1DDDF1B000749463 /* Build configuration list for PBXProject "DeleteMe2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F407B091DDDF1B000749463;
+			productRefGroup = 4F407B131DDDF1B000749463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F407B111DDDF1B000749463 /* DeleteMe2 */,
+				4F407B2D1DDDF1B000749463 /* DeleteMe2Tests */,
+				4F407B381DDDF1B000749463 /* DeleteMe2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F407B101DDDF1B000749463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F407B281DDDF1B000749463 /* LaunchScreen.storyboard in Resources */,
+				4F407B251DDDF1B000749463 /* Assets.xcassets in Resources */,
+				4F407B201DDDF1B000749463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F407B2C1DDDF1B000749463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F407B371DDDF1B000749463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F407B0E1DDDF1B000749463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F407B1D1DDDF1B000749463 /* ViewController.m in Sources */,
+				4F407B231DDDF1B000749463 /* DeleteMe2.xcdatamodeld in Sources */,
+				4F407B1A1DDDF1B000749463 /* AppDelegate.m in Sources */,
+				4F407B171DDDF1B000749463 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F407B2A1DDDF1B000749463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F407B331DDDF1B000749463 /* DeleteMe2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F407B351DDDF1B000749463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F407B3E1DDDF1B000749463 /* DeleteMe2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F407B301DDDF1B000749463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F407B111DDDF1B000749463 /* DeleteMe2 */;
+			targetProxy = 4F407B2F1DDDF1B000749463 /* PBXContainerItemProxy */;
+		};
+		4F407B3B1DDDF1B000749463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F407B111DDDF1B000749463 /* DeleteMe2 */;
+			targetProxy = 4F407B3A1DDDF1B000749463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F407B1E1DDDF1B000749463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F407B1F1DDDF1B000749463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F407B261DDDF1B000749463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F407B271DDDF1B000749463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F407B401DDDF1B000749463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F407B411DDDF1B000749463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F407B431DDDF1B000749463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeleteMe2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ejd.DeleteMe2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F407B441DDDF1B000749463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeleteMe2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ejd.DeleteMe2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F407B461DDDF1B000749463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeleteMe2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ejd.DeleteMe2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeleteMe2.app/DeleteMe2";
+			};
+			name = Debug;
+		};
+		4F407B471DDDF1B000749463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeleteMe2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ejd.DeleteMe2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeleteMe2.app/DeleteMe2";
+			};
+			name = Release;
+		};
+		4F407B491DDDF1B000749463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeleteMe2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ejd.DeleteMe2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeleteMe2;
+			};
+			name = Debug;
+		};
+		4F407B4A1DDDF1B000749463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeleteMe2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ejd.DeleteMe2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeleteMe2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F407B0D1DDDF1B000749463 /* Build configuration list for PBXProject "DeleteMe2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F407B401DDDF1B000749463 /* Debug */,
+				4F407B411DDDF1B000749463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F407B421DDDF1B000749463 /* Build configuration list for PBXNativeTarget "DeleteMe2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F407B431DDDF1B000749463 /* Debug */,
+				4F407B441DDDF1B000749463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F407B451DDDF1B000749463 /* Build configuration list for PBXNativeTarget "DeleteMe2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F407B461DDDF1B000749463 /* Debug */,
+				4F407B471DDDF1B000749463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4F407B481DDDF1B000749463 /* Build configuration list for PBXNativeTarget "DeleteMe2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F407B491DDDF1B000749463 /* Debug */,
+				4F407B4A1DDDF1B000749463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F407B211DDDF1B000749463 /* DeleteMe2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F407B221DDDF1B000749463 /* DeleteMe2.xcdatamodel */,
+			);
+			currentVersion = 4F407B221DDDF1B000749463 /* DeleteMe2.xcdatamodel */;
+			path = DeleteMe2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F407B0A1DDDF1B000749463 /* Project object */;
+}
